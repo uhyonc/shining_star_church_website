@@ -1,0 +1,89 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+
+/* 
+Cerulean: #4484ce
+Aluminum: #d9d9d9
+Light: #f9cf00
+Tangerine: #f19f4d
+*/
+
+BODY {
+	width: 100%;
+    margin: 0; padding:0;
+	background-color: #fff;
+    background-repeat: no-repeat;
+    font-size: 100%;
+    overflow-x:hidden;
+}
+
+#churchLabel {
+	font-family: 'Jeju Hallasan', serif;
+	text-shadow: #000 0px 0px 2px;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Church Label at the top left */
+#churchLabel .mainLabel {
+	font-size:1.5em;
+	color: #fff;
+	text-decoration: none;
+}
+#churchLabel .subLabel {
+	font-size:0.75em;
+}
+.topnav a {
+    font-size: 1.5em;
+    font-family: 'Nanum Brush Script';
+    text-shadow: #000 0px 0px 2px;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.sectionLabel {
+	font-size:2.5em;
+	font-family: 'Jeju Hallasan';
+}
+
+
+/* The main content */
+.mainContent {
+    display: table;
+    width: 95%;
+    margin: 2em 1em 1em 1em;
+}
+
+.mainContent .text {
+	font-family: 'Nanum Gothic', serif;
+}
+
+.mainContent .left {
+	vertical-align: top;
+	display: table-cell;
+    width: auto;
+    padding-right: 1.5em;
+}
+
+.mainContent .right {
+	vertical-align: top;
+	display: table-cell;
+    width: auto;
+    padding-left: 1.5em;
+}
+
+
+.footer {
+	font-size: 0.5em;
+	width:100%;
+	background-color: #d9d9d9;
+	text-align:center;
+	line-height: 50%;
+	clear: both;
+    position: relative;
+    z-index: 10;
+    padding: 1em 0em 1em 0em;
+    margin-top: 2em 0em 1em 0em;
+}

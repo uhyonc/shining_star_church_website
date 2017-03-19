@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--# include file="header.html" -->
+<link rel="stylesheet" type="text/css" href="css/directions.css">
+</head>
+<body>
+<!--# include file="top.html" -->
+<div class="title">&nbsp;</div>
+
+<div class="sectionLabel">오시는 길</div>
+
+
+
+<div class="mainContent">
+
+<div class="left">
+<h2>교회명</h2>
+뉴저지 성광교회<br/>
+Shining Star Presbyterian Church
+
+<h2>교회 주소</h2>
+<div id="churchAddress">822 S Church St.<br/>Mt. Laurel, NJ 08054</div>
+
+<h2>전화번호</h2>
+담임목사 정일만: 206-458-1036 (Cell)
+</div>
+<div class="right">
+
+<h2>교회 약도</h2>
+<div id="map" style="width:500px;height:500px;"></div>
+
+</div>
+
+</div>
+
+<script>
+var map;
+function initMap() {
+	var myLatLng = {lat: 39.9366213, lng: -74.9374038};
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: myLatLng, zoom: 15
+  });
+  var marker = new google.maps.Marker({
+    position: myLatLng, map: map,
+    label: '뉴져지 성광교회'
+  });
+}
+
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA47MZAytzAY8Tst1dc61mzXwnuC_T0ICw&callback=initMap"
+  async defer></script>
+  
+<!--# include file="footer.html" -->
+</body>
+</html>

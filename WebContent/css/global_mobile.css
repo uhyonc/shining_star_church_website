@@ -1,0 +1,41 @@
+.title {
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	height: 165px !important;
+	position: absolute;
+	top:0px; left:0px; z-index: -10;
+}
+
+#churchLabel {
+	color: #f19f4d;
+	text-align: center;
+	font-size: 3em;
+}
+
+#churchLabel .mainLabel {
+	color: #f19f4d;
+}
+
+.topnav {
+    padding: 1em; text-align: center; font-size: 1em;
+}
+
+.topnav a {
+    padding: 1em 1em 1em 1em;
+    color: #fff;
+    font-family: 'Nanum Gothic', serif;
+    text-decoration: none;
+}
+
+.topnav a:visited {
+    color: #fff; text-decoration: none;
+}
+
+.topnav a:link {
+    color: #fff; text-decoration: none;
+}
+
+.sectionLabel {
+	text-align: center;
+}
